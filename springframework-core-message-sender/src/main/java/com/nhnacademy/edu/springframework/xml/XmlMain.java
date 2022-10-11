@@ -11,9 +11,19 @@ public class XmlMain {
         String location = "classpath:/beans.xml";
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(location);
 
-        MessageSender sender = context.getBean("smsMessageSender", MessageSender.class);
-        User user = new User("xml@com","010");
-        sender.sendMessage(user,"ddd");
+        //MessageSender emailMessageSender = context.getBean("emailMessageSender", MessageSender.class);
+        User user = new User("xml@com","010123241234");
+
+        System.out.println("------");
+        context.getBean("emailMessageSender", MessageSender.class).sendMessage(user,"singleton");
+        System.out.println("------");
+        context.getBean("emailMessageSender", MessageSender.class).sendMessage(user,"singleton");
+        System.out.println("------");
+        context.getBean("smsMessageSender", MessageSender.class).sendMessage(user,"prototype");
+        System.out.println("------");
+        context.getBean("smsMessageSender", MessageSender.class).sendMessage(user,"prototype");
+
+
 
 
     }
