@@ -15,8 +15,13 @@
             scope="singleton"
             destroy-method="cleanup">
     </bean>
-    <bean id = "messageSendService" class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService" >
-        <property name="smsmessageSender" ref="smsMessageSender" />
+<!--    <bean id = "messageSendService" class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService" >-->
+<!--        <property name="smsmessageSender" ref="smsMessageSender" />-->
+<!--&lt;!&ndash;        <constructor-arg ref="smsMessageSender"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg ref="emailMessageSender"/>&ndash;&gt;-->
+<!--    </bean>-->
+    <bean id = "messageSendService" class = "com.nhnacademy.edu.springframework.messagesender.service.MessageSendService"
+       autowire="byName">
     </bean>
 
 

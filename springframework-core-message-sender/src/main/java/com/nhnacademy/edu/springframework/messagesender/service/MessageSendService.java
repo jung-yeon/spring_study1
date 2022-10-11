@@ -17,15 +17,15 @@ public class MessageSendService {
     }
 
     //setter
-    public void setSmsmessageSender(MessageSender smsmessageSender){
-        System.out.println("set MessageSend");
-        this.smsmessageSender = smsmessageSender;
+    public void setEmailMessageSender(MessageSender emailMessageSender){
+        System.out.println("set EmailMessageSend");
+        this.emailmessageSender = emailMessageSender;
     }
 
 
     public void doSendMessage() {
-        smsmessageSender.sendMessage(new User("abc@com" ,"01086819533"), "message");
+//        smsmessageSender.sendMessage(new User("abc@com" ,"01086819533"), "message");
         //construtor Injection일 때 필요
-//        emailmessageSender.sendMessage(new User("abc@com" ,"01012340123"), "message");
+        emailmessageSender.sendMessage(new User("abc@com" ,"01012340123"), "message");
     }
 }
