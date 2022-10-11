@@ -7,12 +7,17 @@
 
     <bean id="smsMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender"
             scope="prototype"
+            init-method="init"
             >
     </bean>
 
     <bean id="emailMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender"
             scope="singleton"
-            init-method="init">
+            destroy-method="cleanup">
     </bean>
+    <bean id = "messageSendService" class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService" >
+        <property name="smsmessageSender" ref="smsMessageSender" />
+    </bean>
+
 
 </beans>

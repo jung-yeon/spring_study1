@@ -23,8 +23,6 @@ public class XmlMain {
         System.out.println("------");
         context.getBean("smsMessageSender", MessageSender.class).sendMessage(user,"prototype");
 
-
-
-
+        context.close();
     }
 }
