@@ -1,20 +1,40 @@
 package com.nhnacademy.edu.springframework.messagesender.service;
 
+import com.nhnacademy.edu.springframework.annotation.SMS;
 import com.nhnacademy.edu.springframework.messagesender.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 
 public class MessageSendService {
+    private MessageSender messageSender;
     private MessageSender smsmessageSender;
     private MessageSender emailmessageSender;
 
+    @Value("${from}")
+    private String name;
 
+    public MessageSendService(){
+
+    }
+    //아래처럼 한다면 final으로 사용할 수 있다.
+//    @Autowired
+//    public MessageSendService(@SMS("smsMessageSender") MessageSender messageSender,  @Value("${from}") String name){
+//        System.out.println("-------Constructor Injection------");
+//        this.name = name;
+//        this.messageSender = messageSender;
+//    }
+    @Autowired
+    public MessageSendService(@SMS MessageSender messageSender){
+        System.out.println("-------Constructor Injection------");
+        this.messageSender = messageSender;
+    }
     //Constructor Injection 의 예
     public MessageSendService(MessageSender smsmessageSender,MessageSender emailmessageSender){
         this.smsmessageSender = smsmessageSender;
         this.emailmessageSender = emailmessageSender;
     }
-    public MessageSendService(){
 
-    }
 
     //setter
     public void setEmailMessageSender(MessageSender emailMessageSender){
@@ -26,6 +46,7 @@ public class MessageSendService {
     public void doSendMessage() {
 //        smsmessageSender.sendMessage(new User("abc@com" ,"01086819533"), "message");
         //construtor Injection일 때 필요
-        emailmessageSender.sendMessage(new User("abc@com" ,"01012340123"), "message");
+        System.out.println("from : " + name);
+        messageSender.sendMessage(new User("99dlwjddus@naver.com" ,"010-8681-9533"), "message");
     }
 }

@@ -1,7 +1,9 @@
 package com.nhnacademy.edu.springframework.messagesender.service;
 
 import com.nhnacademy.edu.springframework.messagesender.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SmsMessageSender implements MessageSender{
     @Override
     public void sendMessage(User user, String message) {
@@ -13,5 +15,8 @@ public class SmsMessageSender implements MessageSender{
     }
     public void init(){
         System.out.println("init method called in SmsMessageSender");
+    }
+    public void cleanup(){
+        System.out.println("destroy method called in SmsMessageSender");
     }
 }
