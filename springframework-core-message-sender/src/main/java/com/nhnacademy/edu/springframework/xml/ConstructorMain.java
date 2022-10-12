@@ -6,8 +6,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ConstructorMain {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:/beans.xml");
-        MessageSendService service = context.getBean("messageSendService", MessageSendService.class);
-        service.doSendMessage();
+        try(ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:/beans.xml")){
+            MessageSendService service = context.getBean("messageSendService", MessageSendService.class);
+            service.doSendMessage();
+        }
     }
 }

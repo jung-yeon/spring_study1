@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd"
+>
 
+    <!-- annotation설정을 위해 추가-->
+    <context:annotation-config />
+    <context:property-placeholder location="classpath:greeting.properties" />
 
-    <bean id="smsMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender"
-            scope="prototype"
-            init-method="init"
-            >
-    </bean>
-
-    <bean id="emailMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender"
-            scope="singleton"
-            destroy-method="cleanup">
-    </bean>
-<!--    <bean id = "messageSendService" class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService" >-->
-<!--        <property name="smsmessageSender" ref="smsMessageSender" />-->
-<!--&lt;!&ndash;        <constructor-arg ref="smsMessageSender"/>&ndash;&gt;-->
-<!--&lt;!&ndash;        <constructor-arg ref="emailMessageSender"/>&ndash;&gt;-->
+<!--    <bean id="smsMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender">-->
+<!--        <qualifier type="com.nhnacademy.edu.springframework.annotation.SMS"/>-->
 <!--    </bean>-->
-    <bean id = "messageSendService" class = "com.nhnacademy.edu.springframework.messagesender.service.MessageSendService"
-       autowire="byName">
-    </bean>
 
+<!--    <bean id="emailMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender">-->
+
+<!--    </bean>-->
+
+
+<!--    <bean id = "messageSendService" class = "com.nhnacademy.edu.springframework.messagesender.service.MessageSendService">-->
+<!--    </bean>-->
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
 
 </beans>
