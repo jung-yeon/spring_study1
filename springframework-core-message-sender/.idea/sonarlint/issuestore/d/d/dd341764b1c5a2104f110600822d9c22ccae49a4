@@ -1,0 +1,16 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(‡˜†şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ê„âùøÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ê„âùøÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Ğô–•ÿÿÿÿÿ
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(¼ßØ÷şÿÿÿÿ8Ñà£ş¼0
+T	java:S106="9Replace this use of System.out or System.err by a logger.(ÕÃèL8‰²‹‚½0
+Q	java:S125;"<This block of commented-out lines of code should be removed.(®Æßá
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Qualifier'.(íàÄ®ıÿÿÿÿ8ñš‚½0
+Y
+java:S1068"7Remove this unused "doorayMessageSender" private field.(Ã†‚›øÿÿÿÿ8áŒ‹‚½0
+O
+java:S1068"4Remove this unused "smsmessageSender" private field.(§¼Á‘ùÿÿÿÿ
+L
+java:S1068"6Remove this unused "emailmessageSender" private field.(‚Ş§Ò

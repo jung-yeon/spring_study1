@@ -1,0 +1,7 @@
+
+{
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "retVal".(©òÑÁ8æ¥úý¼0
+X	java:S125"<This block of commented-out lines of code should be removed.(’ Ú¤8–´§ý¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õÐ¢õüÿÿÿÿ8ÜÓðü¼0
+^
+java:S1128"ARemove this unused import 'org.aspectj.lang.annotation.Pointcut'.(ˆ“¡¿8ª´§ý¼0

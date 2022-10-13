@@ -1,0 +1,12 @@
+
+{
+java:S3305"YInject this field value directly into "MessageSendService", the only method that uses it.(ğòÀıÿÿÿÿ8è•Ÿ×¼0
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùü°¢8ï•Ÿ×¼0
+…
+java:S1128"cRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.MessageSender'.(µ·‚áúÿÿÿÿ8ÎÄ›×¼0
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8ÎÄ›×¼0
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8Ñ¸Ÿ×¼0
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ÎÄ›×¼0

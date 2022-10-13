@@ -1,0 +1,12 @@
+
+Z
+java:S1854"?Remove this useless assignment to local variable "basePackage".(ÉçÒøùÿÿÿÿ
+K
+java:S1481"0Remove this unused "basePackage" local variable.(ÉçÒøùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(°™…Ø
+m
+java:S1128"RRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.User'.(÷ùÏÓüÿÿÿÿ
+ƒ
+java:S1128"hRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender'.(¤Ğø£şÿÿÿÿ
+~
+java:S1128"cRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.MessageSender'.(µ·‚áúÿÿÿÿ

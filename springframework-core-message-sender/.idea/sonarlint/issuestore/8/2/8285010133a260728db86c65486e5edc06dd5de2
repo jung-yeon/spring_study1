@@ -1,0 +1,12 @@
+
+i
+java:S1192"GDefine a constant instead of duplicating this literal "------" 4 times.(şú±Ÿûÿÿÿÿ8ãæ«¼0
+]	java:S125"<This block of commented-out lines of code should be removed.(æºæ…ÿÿÿÿÿ8íŠ«¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ8ºƒÿª¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ8»ƒÿª¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ8ƒç«¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ8„ç«¼0
+„
+java:S1128"hRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.MessageSendService'.(¦Ü’;8á¯ÿª¼0
+ƒ
+java:S1128"fRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender'.(ÙÃµ£8á¯ÿª¼0
