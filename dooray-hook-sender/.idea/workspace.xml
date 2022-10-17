@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce51198e-d764-479d-9b71-8f6bf7ef0316" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/0/3/03e94f697e8a34c7e6fd12d91da33fd634bf6a25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/1/0/10a19c130d480f4374355bfce47060919f47f496" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/2/d/2dcdd85aba57efe759349034392cbbc324113662" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/4/4/44b02b054dc30cf34cc5d9f0164e44f84dcd331c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/6/8/68fbe1cbe2db67a91662dfa391ef5bcd1b1dc110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/8/2/8285010133a260728db86c65486e5edc06dd5de2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/9/6/969be35ce1e0304d99f602ee5b4ffc0755bda7d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/d/9/d927a8f00710191957fb7992e42098012ede9b17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhn/dooray/messenger/DoorayHookSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhn/dooray/messenger/DoorayMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/aop/TimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/RestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/xml/AopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/test/java/com/nhnacademy/edu/springframework/test/MessageSendServiceMockIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/test/java/com/nhnacademy/edu/springframework/test/MessageSendServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/service/MessageSendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/service/MessageSendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/service/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/service/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/service/SmsMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/java/com/nhnacademy/edu/springframework/messagesender/service/SmsMessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/messagesender/service/MessageSendService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/messagesender/service/MessageSendService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/xml/ConstructorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/xml/ConstructorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/xml/JavaConfigMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/xml/JavaConfigMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/xml/SetterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springframework-core-message-sender/target/classes/com/nhnacademy/edu/springframework/xml/SetterMain.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2G4OzgaN1edkdzu9JZYG6k4Lq2E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce51198e-d764-479d-9b71-8f6bf7ef0316" name="Changes" comment="" />
+      <created>1665644656734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665644656734</updated>
+      <workItem from="1665644659871" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
